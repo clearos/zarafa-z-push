@@ -1,0 +1,20 @@
+--- z-push/config.php	2011-08-19 22:55:47.000000000 +0100
++++ z-push/config.php.NEW	2011-10-13 10:30:22.000000000 +0100
+@@ -45,7 +45,7 @@
+  *  Default settings
+  */
+     // Defines the default time zone, change e.g. to "Europe/London" if necessary
+-    define('TIMEZONE', '');
++    define('TIMEZONE', date_default_timezone_get() );
+ 
+     // Defines the base path on the server
+     define('BASE_PATH', dirname($_SERVER['SCRIPT_FILENAME']). '/');
+@@ -60,7 +60,7 @@
+ /**********************************************************************************
+  *  Default FileStateMachine settings
+  */
+-    define('STATE_DIR', '/var/lib/z-push/');
++    define('STATE_DIR', '/var/lib/zarafa-z-push/state/');
+
+
+ /**********************************************************************************

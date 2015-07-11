@@ -1,0 +1,5 @@
+/var/log/z-push/*log {
+        missingok
+        notifempty
+        create 644 apache apache
+}

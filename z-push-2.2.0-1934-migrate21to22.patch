@@ -1,0 +1,19 @@
+diff -rup z-push-2.2.0-1934/tools/migrate-2.0.x-2.1.0.php z-push-2.2.0-1934-migrate21to22.patch/tools/migrate-2.0.x-2.1.0.php
+--- z-push-2.2.0-1934/tools/migrate-2.0.x-2.1.0.php	2013-01-22 08:00:05.633566000 -0700
++++ z-push-2.2.0-1934-migrate21to22.patch/tools/migrate-2.0.x-2.1.0.php	2015-02-24 13:01:26.771209552 -0700
+@@ -44,7 +44,7 @@
+ ************************************************/
+ 
+ // Please adjust to match your z-push installation directory, usually /usr/share/z-push
+-define('ZPUSH_BASE_PATH', "../src");
++define('ZPUSH_BASE_PATH', "/usr/share/zarafa-z-push");
+ 
+ 
+ 
+@@ -214,4 +214,4 @@ class StateMigrator20xto210 {
+     }
+ }
+ 
+-?>
+\ No newline at end of file
++?>

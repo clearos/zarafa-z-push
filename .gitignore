@@ -1,1 +1,4 @@
 z-push-2.2.0-1934.tar.gz
+/Makefile
+*.src.rpm
+*.tar.gz

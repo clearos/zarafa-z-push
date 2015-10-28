@@ -104,7 +104,7 @@ rm -rf /var/lib/zarafa-z-push/state/ > /dev/null 2>&1
 %{_datadir}/%{name}/
 %dir %{_localstatedir}/lib/%{name}/
 %attr(-,apache,apache) %dir %{_localstatedir}/lib/%{name}/state/
-%dir %attr(0775,apache,apache) %{_localstatedir}/log/%{upstream_name}/
+%dir %attr(0775,apache,root) %{_localstatedir}/log/%{upstream_name}/
 
 %changelog
 * Tue Feb 24 2015 ClearFoundation <developer@clearfoundation.com> 2.2.0-1

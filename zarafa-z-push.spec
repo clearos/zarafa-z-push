@@ -165,7 +165,7 @@ rm -rf /var/lib/zarafa-z-push/state/ > /dev/null 2>&1
 * Fri Feb 11 2011 Robert Scheck <robert@fedoraproject.org> 1.5.1-1
 - Upgrade to 1.5.1
 
-* Mon Jan 26 2011 Robert Scheck <robert@fedoraproject.org> 1.5-1
+* Wed Jan 26 2011 Robert Scheck <robert@fedoraproject.org> 1.5-1
 - Upgrade to 1.5
 
 * Thu May 27 2010 Robert Scheck <robert@fedoraproject.org> 1.3-2

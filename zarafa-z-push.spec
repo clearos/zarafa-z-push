@@ -3,13 +3,12 @@
 
 Summary:	ActiveSync over-the-air implementation for Zarafa
 Name:		zarafa-z-push
-Version:	2.2.0
+Version:	2.2.5
 Release:	1%{?dist}
-%define buildid 1934
 License:	AGPLv3 with exceptions
 Group:		Applications/Productivity
 URL:		http://z-push.sourceforge.net/
-Source0:	http://download.berlios.de/%{upstream_name}/%{upstream_name}-%{version}-%{buildid}.tar.gz
+Source0:	http://download.berlios.de/%{upstream_name}/%{upstream_name}-%{version}.tar.gz
 Source1:	zarafa-z-push.conf
 Source2:	zarafa-z-push.logrotate
 Patch1:		z-push-2.0-zarafa.patch
@@ -33,7 +32,7 @@ and Open Source Collaboration. For non-Zarafa use cases, please use the
 regular Z-Push package.
 
 %prep
-%setup -q -n %{upstream_name}-%{version}-%{buildid}
+%setup -q -n %{upstream_name}-%{version}
 %patch1 -p1 -b .zarafa
 %patch2 -p1 -b .migrate
 
@@ -107,6 +106,9 @@ rm -rf /var/lib/zarafa-z-push/state/ > /dev/null 2>&1
 %dir %attr(0775,apache,root) %{_localstatedir}/log/%{upstream_name}/
 
 %changelog
+* Wed Oct 28 2015 ClearFoundation <developer@clearfoundation.com> 2.2.5-1
+- Update to 2.2.5
+
 * Tue Feb 24 2015 ClearFoundation <developer@clearfoundation.com> 2.2.0-1
 - Update to 2.2.0
 

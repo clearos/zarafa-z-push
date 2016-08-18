@@ -3,7 +3,7 @@
 
 Summary:	ActiveSync over-the-air implementation for Zarafa
 Name:		zarafa-z-push
-Version:	2.2.8
+Version:	2.2.12
 Release:	1%{?dist}
 License:	AGPLv3 with exceptions
 Group:		Applications/Productivity
@@ -106,6 +106,9 @@ rm -rf /var/lib/zarafa-z-push/state/ > /dev/null 2>&1
 %dir %attr(0775,apache,root) %{_localstatedir}/log/%{upstream_name}/
 
 %changelog
+* Thu Aug 18 2016 ClearFoundation <developer@clearfoundation.com> 2.2.12-1
+- Update to 2.2.12
+
 * Thu Feb 25 2016 ClearFoundation <developer@clearfoundation.com> 2.2.8-1
 - Update to 2.2.8
 

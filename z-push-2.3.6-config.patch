@@ -1,6 +1,7 @@
---- z-push/config.php	2011-08-19 22:55:47.000000000 +0100
-+++ z-push/config.php.NEW	2011-10-13 10:30:22.000000000 +0100
-@@ -45,7 +45,7 @@
+diff -rup z-push-2.3.6/config.php z-push-2.3.6-config/config.php
+--- z-push-2.3.6/config.php	2017-04-26 10:55:28.000000000 -0400
++++ z-push-2.3.6-config/config.php	2017-06-12 20:59:03.473692489 -0400
+@@ -27,7 +27,7 @@
   *  Default settings
   */
      // Defines the default time zone, change e.g. to "Europe/London" if necessary
@@ -9,12 +10,12 @@
  
      // Defines the base path on the server
      define('BASE_PATH', dirname($_SERVER['SCRIPT_FILENAME']). '/');
-@@ -60,7 +60,7 @@
- /**********************************************************************************
-  *  Default FileStateMachine settings
+@@ -61,7 +61,7 @@
+  *           State migration script is available, more informations: https://wiki.z-hub.io/x/xIAa
   */
+     define('STATE_MACHINE', 'FILE');
 -    define('STATE_DIR', '/var/lib/z-push/');
 +    define('STATE_DIR', '/var/lib/zarafa-z-push/state/');
-
-
+ 
  /**********************************************************************************
+  *  IPC - InterProcessCommunication

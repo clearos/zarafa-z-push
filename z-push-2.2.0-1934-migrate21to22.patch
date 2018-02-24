@@ -1,7 +1,6 @@
-diff -rup z-push-2.2.0-1934/tools/migrate-2.0.x-2.1.0.php z-push-2.2.0-1934-migrate21to22.patch/tools/migrate-2.0.x-2.1.0.php
---- z-push-2.2.0-1934/tools/migrate-2.0.x-2.1.0.php	2013-01-22 08:00:05.633566000 -0700
-+++ z-push-2.2.0-1934-migrate21to22.patch/tools/migrate-2.0.x-2.1.0.php	2015-02-24 13:01:26.771209552 -0700
-@@ -44,7 +44,7 @@
+--- z-push-2.3.9/tools/migrate-2.0.x-2.1.0.php	2018-02-07 12:52:59.000000000 -0500
++++ z-push-2.3.9/tools/migrate-2.0.x-2.1.0.php.NEW	2018-02-24 09:28:49.750315284 -0500
+@@ -26,7 +26,7 @@
  ************************************************/
  
  // Please adjust to match your z-push installation directory, usually /usr/share/z-push
@@ -10,10 +9,3 @@ diff -rup z-push-2.2.0-1934/tools/migrate-2.0.x-2.1.0.php z-push-2.2.0-1934-migr
  
  
  
-@@ -214,4 +214,4 @@ class StateMigrator20xto210 {
-     }
- }
- 
--?>
-\ No newline at end of file
-+?>

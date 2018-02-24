@@ -11,8 +11,8 @@ URL:		http://z-push.sourceforge.net/
 Source0:	http://download.berlios.de/%{upstream_name}/%{upstream_name}-%{version}.tar.gz
 Source1:	zarafa-z-push.conf
 Source2:	zarafa-z-push.logrotate
-Patch1:		z-push-2.0-zarafa.patch
-Patch2:		z-push-2.2.0-1934-migrate21to22.patch
+Patch1:		z-push-2.3.9-config.patch
+Patch2:		z-push-2.3.9-migrate21to22.patch
 Requires:	httpd, php >= 5.1.0, php-process >= 5.1.0
 # Kludgy: Zarafa binaries are messy, so disable these deps for repoclosure
 # Requires: php-mapi >= 7.0.0, zarafa-common >= 7.0.5

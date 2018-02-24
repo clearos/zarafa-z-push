@@ -7,8 +7,8 @@ Version:	2.3.9
 Release:	1%{?dist}
 License:	AGPLv3 with exceptions
 Group:		Applications/Productivity
-URL:		http://z-push.sourceforge.net/
-Source0:	http://download.berlios.de/%{upstream_name}/%{upstream_name}-%{version}.tar.gz
+URL:		http://z-push.org/
+Source0:    http://download.z-push.org/final/2.3/%{upstream_name}-%{version}.tar.gz
 Source1:	zarafa-z-push.conf
 Source2:	zarafa-z-push.logrotate
 Patch1:		z-push-2.3.9-config.patch

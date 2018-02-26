@@ -25,7 +25,7 @@ BuildArch:	noarch
 Z-Push is an implementation of the ActiveSync protocol which is used
 'over-the-air' for multi platform ActiveSync devices, including Windows
 Mobile, Android, iPhone, Sony Ericsson and Nokia mobile devices. With
-Z-Push any groupware can be connected and synced with these devices.
+Z-Push any groupware can be connected and synced with these devices. 
 
 This package is prepared for use with the Zarafa Collaboration Platform
 and Open Source Collaboration. For non-Zarafa use cases, please use the
